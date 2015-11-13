@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		1309864F1BF58035002A3CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309864E1BF58035002A3CF8 /* main.m */; };
 		130986521BF58035002A3CF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986511BF58035002A3CF8 /* AppDelegate.m */; };
-		130986551BF58035002A3CF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986541BF58035002A3CF8 /* ViewController.m */; };
 		130986581BF58035002A3CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130986561BF58035002A3CF8 /* Main.storyboard */; };
 		1309865A1BF58035002A3CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130986591BF58035002A3CF8 /* Assets.xcassets */; };
 		1309865D1BF58035002A3CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1309865B1BF58035002A3CF8 /* LaunchScreen.storyboard */; };
 		130986681BF58036002A3CF8 /* JFCalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986671BF58036002A3CF8 /* JFCalendarDemoTests.m */; };
 		130986731BF58036002A3CF8 /* JFCalendarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986721BF58036002A3CF8 /* JFCalendarDemoUITests.m */; };
+		130986841BF5805D002A3CF8 /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986811BF5805C002A3CF8 /* CalendarCollectionViewCell.m */; };
+		130986851BF5805D002A3CF8 /* NSDate+JFCalendarHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986831BF5805D002A3CF8 /* NSDate+JFCalendarHelp.m */; };
+		1309868A1BF580D6002A3CF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130986891BF580D6002A3CF8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		1309864E1BF58035002A3CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		130986501BF58035002A3CF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		130986511BF58035002A3CF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		130986531BF58035002A3CF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		130986541BF58035002A3CF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		130986571BF58035002A3CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		130986591BF58035002A3CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1309865C1BF58035002A3CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		1309866E1BF58036002A3CF8 /* JFCalendarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFCalendarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130986721BF58036002A3CF8 /* JFCalendarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFCalendarDemoUITests.m; sourceTree = "<group>"; };
 		130986741BF58036002A3CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130986801BF5805C002A3CF8 /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		130986811BF5805C002A3CF8 /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		130986821BF5805D002A3CF8 /* NSDate+JFCalendarHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JFCalendarHelp.h"; sourceTree = "<group>"; };
+		130986831BF5805D002A3CF8 /* NSDate+JFCalendarHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JFCalendarHelp.m"; sourceTree = "<group>"; };
+		130986881BF580D6002A3CF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		130986891BF580D6002A3CF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,11 @@
 		1309864C1BF58035002A3CF8 /* JFCalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				130986501BF58035002A3CF8 /* AppDelegate.h */,
-				130986511BF58035002A3CF8 /* AppDelegate.m */,
-				130986531BF58035002A3CF8 /* ViewController.h */,
-				130986541BF58035002A3CF8 /* ViewController.m */,
+				130986861BF58063002A3CF8 /* Cell */,
+				130986871BF58069002A3CF8 /* Helper */,
 				130986561BF58035002A3CF8 /* Main.storyboard */,
-				130986591BF58035002A3CF8 /* Assets.xcassets */,
-				1309865B1BF58035002A3CF8 /* LaunchScreen.storyboard */,
-				1309865E1BF58035002A3CF8 /* Info.plist */,
+				130986881BF580D6002A3CF8 /* ViewController.h */,
+				130986891BF580D6002A3CF8 /* ViewController.m */,
 				1309864D1BF58035002A3CF8 /* Supporting Files */,
 			);
 			path = JFCalendarDemo;
@@ -117,6 +120,11 @@
 		1309864D1BF58035002A3CF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				130986501BF58035002A3CF8 /* AppDelegate.h */,
+				130986511BF58035002A3CF8 /* AppDelegate.m */,
+				130986591BF58035002A3CF8 /* Assets.xcassets */,
+				1309865B1BF58035002A3CF8 /* LaunchScreen.storyboard */,
+				1309865E1BF58035002A3CF8 /* Info.plist */,
 				1309864E1BF58035002A3CF8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +146,24 @@
 				130986741BF58036002A3CF8 /* Info.plist */,
 			);
 			path = JFCalendarDemoUITests;
+			sourceTree = "<group>";
+		};
+		130986861BF58063002A3CF8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				130986801BF5805C002A3CF8 /* CalendarCollectionViewCell.h */,
+				130986811BF5805C002A3CF8 /* CalendarCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		130986871BF58069002A3CF8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				130986821BF5805D002A3CF8 /* NSDate+JFCalendarHelp.h */,
+				130986831BF5805D002A3CF8 /* NSDate+JFCalendarHelp.m */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				130986551BF58035002A3CF8 /* ViewController.m in Sources */,
+				130986841BF5805D002A3CF8 /* CalendarCollectionViewCell.m in Sources */,
+				130986851BF5805D002A3CF8 /* NSDate+JFCalendarHelp.m in Sources */,
 				130986521BF58035002A3CF8 /* AppDelegate.m in Sources */,
 				1309864F1BF58035002A3CF8 /* main.m in Sources */,
+				1309868A1BF580D6002A3CF8 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
